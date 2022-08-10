@@ -21,9 +21,32 @@
                 <input type="text" name="title" placeholder="Add task">
                 <button class="waves-effect waves-light btn">Add</button>
             </form>
+
+            <ul class="collection" id="todo-list">
+                <li class="collection-item">
+                    <div>
+                        <input type="checkbox" id="test5" />
+                        <label for="test5">Test 5</label>
+                    </div>
+                        <span>Buying Food</span>
+                        <i class="material-icons secondary-content">delete</i>
+                        <a herf="#model" class="modal-trigger secondary-content">
+                            <i class="material-icons">edit</i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <input type="text" name="newtitle" placeholder="Update Task">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" id="update" class="modal-close waves-effect waves-green btn-flat">Update</a>
+                </div>
+
+            </div>
         </div>
-
-
         <script src="app.js" async defer></script>
     </body>
 </html>
