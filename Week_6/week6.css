@@ -1,0 +1,126 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Veranda", Arial, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    /* text-shadow: 10px, 2px, rgb(9, 255, 0); */
+}
+
+body {
+    font-style: normal;
+    font-variant: normal;
+    font-size:16px;
+    font-weight: normal;
+    font-family:"Veranda", Arial, monospace;
+    font-size:16px;
+    word-spacing:1px;
+    color: rgb(47, 10, 95);
+}
+
+h1 {
+    
+    font-style: italic;
+    font-variant: small-caps;
+    font-size:40px;
+    font-weight:bold;
+    font-family: "Veranda", Arial, monospace;
+    color: rgb(47, 10, 95);
+}
+
+h2 {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight:bold;
+    font-size:30px;
+    font-family: "Veranda", Arial, monospace;
+    color: rgb(47, 10, 95);
+}
+
+h3 {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight:bold;
+    font-size:20px;
+    font-family: "Veranda", Arial, monospace;
+    color: rgb(47, 10, 95);
+}
+
+.small {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight:bold;
+    font-size:12px;
+    font-family:  "Veranda", Arial, monospace;
+    color: rgb(47, 10, 95);
+}
+
+.note {
+    font-style: oblique;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: rgb(47, 10, 95);
+}
+
+.dark {
+    color: rgb(0, 0, 0);
+}
+
+.light {
+    color: rgb(255, 255, 255);
+}
+
+.smcap {
+    font-variant: small-caps;
+}
+
+.search {
+    text-align: right;
+}
+
+.special {
+    text-align: justify;
+}
+
+.footnote {
+    text-align: center;
+}
+
+.totals {
+    text-decoration: overline;
+}
+
+.edit {
+    text-decoration: none;
+}
+
+.alpha {
+    text-transform: lowercase;
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+p.semi { 
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+p.full { 
+    text-indent: 10%;
+    line-height: 2em;
+}
+
+p.loose {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+p.compressed {
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+
