@@ -1,0 +1,72 @@
+/* .wrapper {
+    display: grid;
+    grid-template-columns:
+        100px 10px 100px 10px 100px;
+    grid-template-rows:
+        auto 10px auto;
+}
+
+<!-- we position the items using the new properties. There is a shorthand method that uses a / in between that combines start and end --!>
+
+.a {   
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+<!-- give it a background colour etc, so you can diferentiate between them --!>
+
+<!-- to position an item bottom centre, start at colum line 3, this is the line after the gutter track --!>
+
+.b {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+<!-- to extend b and occupy more boxes, use the grid-column-span and grid-row-span properties --!>
+
+<!-- complete shorthand is:--!>
+
+.a {
+    grid-area: 1/1/2/2;
+}
+
+.b {
+    grid-area: 3/3/6/4;
+} */
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 5% 65%;
+    grid-template-rows: 40px auto 20px auto;
+}
+
+.mainheader {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: #84ebdd;
+}
+
+.panel {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    background-color: #f5f5f5;
+}
+
+.content {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    background-color: #5c5c5c;
+}
+
+.mainfooter {
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    background-color: #e8b5ff;
+}
